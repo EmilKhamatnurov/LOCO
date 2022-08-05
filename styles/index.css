@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    position: relative;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.header__black-zone {
+    max-width: 461px;
+    height: 900px;
+    flex-shrink: 0;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 230px 230px;
+}
+.header__logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.07em;
+    font-weight: 500;
+    margin-top: 36px;
+    margin-left: 52px;
+}
+.header__language-button {
+    color: #fff;
+    align-self: start;
+    justify-self: end;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 42px;
+    margin-right: 30px;
+}
+.header_lang-label {
+    margin: 0;
+}
+.header_lang-button {
+    background-color: transparent;
+    border: none;
+    background-image: url(../images/Vector.png);
+    background-repeat: no-repeat;
+}
+.header__media {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    align-self: end;
+    justify-self: start;
+    margin-left: 52px;
+    margin-bottom: 41px;
+    padding: 0;
+}
+.header__link {
+    width: 43px;
+    height: 43px;
+    display: block;
+}
+.header__link_INST {
+    background-image: url(../images/INST.svg);
+}
+.header__link_VK {
+    background-image: url(../images/VK.svg);
+}
+.header__link_FB {
+    background-image: url(../images/FB.svg);
+}
+.header__menu-button {
+    width: 92px;
+    height: 92px;
+    background-image: url(../images/Menu.png);
+    order: 1;
+}
+.header__menu-button:hover {
+    cursor: pointer;
+}
+.header__scroll-button {
+    background-image: url(../images/Scrooll.png);
+    width: 27px;
+    height: 46px;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    justify-self: center;
+    align-self: flex-end;
+    margin-bottom: 39px;
+}
+.header__content {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(12.91em, -50%);
+    align-items: center;
+    gap: 51px;
+}
+.header__image {
+    width: 549px;
+    height: 549px;
+}
+.header__info {
+    max-width: 491px;
+}
+.header__title {
+    font-size: 80px;
+    margin: 0 0 14px 0;
+    line-height: 1.04;
+    margin-top: 35px;
+}
+.header__text {
+    font-size: 15px;
+    margin: 0;
+    line-height: 1.4;
+    max-width: 467px;
+    margin-bottom: 52px;
+}
+.header__buttons {
+    display: flex;
+    list-style: none;
+    gap: 54px;
+    padding: 0;
+}
+.header__buttons a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.header__button-link_bordered {
+    padding: 14px 41px;
+    border: 1.5px solid #000000;
+    min-width: 203px;
+}
