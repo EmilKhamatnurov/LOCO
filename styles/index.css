@@ -149,7 +149,7 @@ body {
 .clutch__image {
     margin-right: 66px;
 }
-.card {
+.card__info {
     background-color: #FFFFFF;
     max-width: 488px;
     padding: 40px 65px 44px 95px;
@@ -173,13 +173,67 @@ body {
     font-weight: 400;
     line-height: 1.4;
     max-width: 368px;
+    opacity: 0.5;
+    margin-bottom: 38px;
 }
 .card__color-price {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
 }
 .color-button {
     width: 30px;
     height: 30px;
-    
+    border: none;
+}
+.color-button_grey {
+    background: #DEDEDE;
+}
+.color-button_red {
+    background: #F29F9F;
+}
+.color-button_blur {
+    background: #A8BFF9;
+}
+.color-button_green {
+    background: #90BD8F;
+}
+.card__price {
+    font-size: 40px;
+    font-weight: 700;
+}
+.card__buttons {
+    display: flex;
+    align-items: center;
+}
+.item-count__button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1.5px solid #000000;
+    padding: 11px 15px;
+    /* gap: 0px; */
+}
+.subtraction-button {
+    background: none;
+    border: none;
+}
+.number-input {
+    max-width: 40px;
+    /* background: none; */
+    /* border: none; */
+    align-content: center;
+}
+.addition-button {
+    background: none;
+    border: none;
+}
+.card__basket-button {
+    font-size: 13px;
+    background: none;
+    border: 1.5px solid #000000;
+    padding: 14px 41px;
+    /* min-width: 253px; */
+    margin-left: 15px;
 }
