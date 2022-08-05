@@ -137,3 +137,49 @@ body {
     border: 1.5px solid #000000;
     min-width: 203px;
 }
+.clutch {
+    background-color: #FAE8E4; 
+    
+}
+.clutch__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clutch__image {
+    margin-right: 66px;
+}
+.card {
+    background-color: #FFFFFF;
+    max-width: 488px;
+    padding: 40px 65px 44px 95px;
+}
+.card__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.card__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    opacity: 0.5;
+    display: block;
+    letter-spacing: 0.07em;
+}
+.card__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 368px;
+}
+.card__color-price {
+    display: flex;
+    justify-content: space-between;
+}
+.color-button {
+    width: 30px;
+    height: 30px;
+    
+}
