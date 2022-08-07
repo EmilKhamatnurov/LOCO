@@ -1,13 +1,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .header {
     position: relative;
 }
+
 .header__menu {
     display: flex;
     justify-content: space-between;
 }
+
 .header__black-zone {
     max-width: 461px;
     height: 900px;
@@ -16,6 +19,7 @@ body {
     display: grid;
     grid-template-columns: 230px 230px;
 }
+
 .header__logo {
     text-decoration: none;
     color: #fff;
@@ -25,6 +29,7 @@ body {
     margin-top: 36px;
     margin-left: 52px;
 }
+
 .header__language-button {
     color: #fff;
     align-self: start;
@@ -35,15 +40,18 @@ body {
     margin-top: 42px;
     margin-right: 30px;
 }
+
 .header_lang-label {
     margin: 0;
 }
+
 .header_lang-button {
     background-color: transparent;
     border: none;
     background-image: url(../images/Vector.png);
     background-repeat: no-repeat;
 }
+
 .header__media {
     display: flex;
     list-style: none;
@@ -54,29 +62,36 @@ body {
     margin-bottom: 41px;
     padding: 0;
 }
+
 .header__link {
     width: 43px;
     height: 43px;
     display: block;
 }
+
 .header__link_INST {
     background-image: url(../images/INST.svg);
 }
+
 .header__link_VK {
     background-image: url(../images/VK.svg);
 }
+
 .header__link_FB {
     background-image: url(../images/FB.svg);
 }
+
 .header__menu-button {
     width: 92px;
     height: 92px;
     background-image: url(../images/Menu.png);
     order: 1;
 }
+
 .header__menu-button:hover {
     cursor: pointer;
 }
+
 .header__scroll-button {
     background-image: url(../images/Scrooll.png);
     width: 27px;
@@ -88,6 +103,7 @@ body {
     align-self: flex-end;
     margin-bottom: 39px;
 }
+
 .header__content {
     display: flex;
     position: absolute;
@@ -99,19 +115,23 @@ body {
     align-items: center;
     gap: 51px;
 }
+
 .header__image {
     width: 549px;
     height: 549px;
 }
+
 .header__info {
     max-width: 491px;
 }
+
 .header__title {
     font-size: 80px;
     margin: 0 0 14px 0;
     line-height: 1.04;
     margin-top: 35px;
 }
+
 .header__text {
     font-size: 15px;
     margin: 0;
@@ -119,12 +139,14 @@ body {
     max-width: 467px;
     margin-bottom: 52px;
 }
+
 .header__buttons {
     display: flex;
     list-style: none;
     gap: 54px;
     padding: 0;
 }
+
 .header__buttons a {
     color: #000;
     text-decoration: none;
@@ -132,34 +154,45 @@ body {
     font-weight: 500;
 
 }
+
 .header__button-link_bordered {
     padding: 14px 41px;
     border: 1.5px solid #000000;
     min-width: 203px;
 }
+
 .clutch {
-    background-color: #FAE8E4; 
-    
+    background-color: #FAE8E4;
+    padding-top: 45px;
+    padding-left: 67px;
+    padding-bottom: 10px;
 }
+
 .clutch__content {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .clutch__image {
-    margin-right: 66px;
+    margin-right: 69px;
 }
+
 .card__info {
     background-color: #FFFFFF;
     max-width: 488px;
-    padding: 40px 65px 44px 95px;
+    padding: 40px 65px 44px 55px;
+    margin-bottom: 38px;
 }
+
 .card__title {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
-    margin-bottom: 60px;
+    margin-bottom: 26px;
+    margin-top: -21px;
 }
+
 .card__subtitle {
     font-size: 16px;
     font-weight: 700;
@@ -168,72 +201,139 @@ body {
     display: block;
     letter-spacing: 0.07em;
 }
+
 .card__text {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.4;
     max-width: 368px;
     opacity: 0.5;
-    margin-bottom: 38px;
+    margin-bottom: 58px;
 }
+
 .card__color-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 46px;
+    margin-top: 45px;
+    margin-bottom: 51px;
 }
+
+.card__color-buttons {
+    gap 15px;
+}
+
 .color-button {
     width: 30px;
     height: 30px;
     border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.card__color-buttons {
+    gap: 12px;
 }
 .color-button_grey {
     background: #DEDEDE;
 }
+
 .color-button_red {
     background: #F29F9F;
 }
+
 .color-button_blur {
     background: #A8BFF9;
 }
+
 .color-button_green {
     background: #90BD8F;
 }
+
 .card__price {
     font-size: 40px;
     font-weight: 700;
+    margin-right: 14px;
 }
+
 .card__buttons {
     display: flex;
     align-items: center;
 }
+
 .item-count__button {
     display: flex;
     align-items: center;
     position: relative;
     border: 1.5px solid #000000;
-    padding: 11px 15px;
+    padding: 11px 7px;
     /* gap: 0px; */
 }
+
 .subtraction-button {
     background: none;
     border: none;
 }
+
 .number-input {
     max-width: 40px;
-    /* background: none; */
-    /* border: none; */
+    text-align: center;
+    font-size: 15px;
+    background: none;
+    border: none;
     align-content: center;
 }
+
 .addition-button {
     background: none;
     border: none;
 }
+
 .card__basket-button {
     font-size: 13px;
     background: none;
     border: 1.5px solid #000000;
-    padding: 14px 41px;
+    padding: 14px 42px;
     /* min-width: 253px; */
     margin-left: 15px;
+}
+
+.card__other-button {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+.footer {
+    /* background-color: #EBE3D8; */
+    background-image: url(../images/footer__background.png);
+    padding: 139px 148px 140px 88px;
+    position: relative;
+}
+
+.footer__image {
+    max-width: 912px;
+    margin-right: -98px;
+}
+
+.footer__card-info {
+    background-color: #FAE8E4;
+    padding: 28px 35px 45px 47px;
+    max-width: 476px;
+    margin-bottom: 0px;
+}
+.footer__text {
+    max-width: 365px;
+}
+.footer__basket-button {
+    padding: 13px 43px;
+}
+.but { 
+    /* решение через марджин выходи очень неудобным, поскольку из-за того, 
+    что все элементы выравниваются по центу, все жутко смещается */
+    display: flex;
+    justify-content: flex-end;
+}
+.footer__card-link {
+    margin-right: 98px;
+    align-self: center;
 }
