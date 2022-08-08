@@ -123,13 +123,13 @@ body {
 
 .header__info {
     max-width: 491px;
+    margin-left: -17px;
 }
 
 .header__title {
     font-size: 80px;
-    margin: 0 0 14px 0;
+    margin: 35px 0 14px 0;
     line-height: 1.04;
-    margin-top: 35px;
 }
 
 .header__text {
@@ -137,7 +137,7 @@ body {
     margin: 0;
     line-height: 1.4;
     max-width: 467px;
-    margin-bottom: 52px;
+    margin-bottom: 38px;
 }
 
 .header__buttons {
@@ -189,8 +189,8 @@ body {
     font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
-    margin-bottom: 26px;
-    margin-top: -21px;
+    margin-bottom: 59px;
+    margin-top: 19px;
 }
 
 .card__subtitle {
@@ -208,15 +208,15 @@ body {
     line-height: 1.4;
     max-width: 368px;
     opacity: 0.5;
-    margin-bottom: 58px;
+    margin-bottom: 50px;
 }
 
 .card__color-price {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 45px;
-    margin-bottom: 51px;
+    margin-top: 25px;
+    margin-bottom: 43px;
 }
 
 .card__color-buttons {
@@ -258,6 +258,7 @@ body {
 .card__buttons {
     display: flex;
     align-items: center;
+    margin-bottom: 13px;
 }
 
 .item-count__button {
@@ -309,12 +310,24 @@ body {
     padding: 139px 148px 140px 88px;
     position: relative;
 }
-
+.footer__title {
+    margin-bottom: 24px;
+}
+.footer__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 368px;
+    opacity: 0.5;
+    margin-bottom: 58px;
+}
 .footer__image {
     max-width: 912px;
     margin-right: -98px;
 }
-
+.footer__card {
+    position: relative;
+}
 .footer__card-info {
     background-color: #FAE8E4;
     padding: 28px 35px 45px 47px;
@@ -324,16 +337,25 @@ body {
 .footer__text {
     max-width: 365px;
 }
+.footer__card-buttons {
+    margin-bottom: 39px;
+}
 .footer__basket-button {
     padding: 13px 43px;
 }
-.but { 
+/* .but {  */
     /* решение через марджин выходи очень неудобным, поскольку из-за того, 
     что все элементы выравниваются по центу, все жутко смещается */
-    display: flex;
-    justify-content: flex-end;
-}
+    /* display: flex;
+    justify-content: flex-end; */
+    /* position: absolute;
+    top: 356px;
+    left: 131px; */
+/* } */
 .footer__card-link {
-    margin-right: 98px;
-    align-self: center;
+    /* margin-right: 98px;
+    align-self: center; */
+    /* display: block; */
+    
+
 }
